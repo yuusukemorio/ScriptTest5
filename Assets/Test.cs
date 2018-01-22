@@ -28,9 +28,7 @@ public class Boss
         if (mp >= 5)
         {
             this.mp -= Magic;
-            Debug.Log("魔法で" + Magic + "のダメージを与えた");
-
-            Debug.Log(mp);
+            Debug.Log("魔法攻撃をした。残りMPは。" + mp);
 
         }
         else

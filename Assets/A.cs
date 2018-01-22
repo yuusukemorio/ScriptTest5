@@ -14,7 +14,12 @@ public class A : MonoBehaviour {
         array [3] = 40;
         array [4] = 50;
 
-        for (int R = 4; R < -1; R++) {
+        for (int R = 0; R < array.Length; R++) {
+            Debug.Log(array[R]);
+        }
+
+        for (int R = array.Length - 1 ; R >= 0; R--)
+        {
             Debug.Log(array[R]);
         }
     }
